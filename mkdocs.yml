@@ -1,10 +1,10 @@
 # 网站信息
 site_name: 模板 #
-site_url: https://eanyang7.github.io/mkdocs_Template # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
-site_description: "mkdocs_Template" #
+site_url: https://eanyang7.github.io/hugging-llm # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
+site_description: "拥抱LLM大语言模型" #
 site_author: Ean Yang
 # 仓库
-repo_url: https://github.com/EanYang7/mkdocs_Template #
+repo_url: https://github.com/EanYang7/hugging-llm #
 repo_name: github仓库
 
 theme:
