@@ -1,5 +1,5 @@
 # 网站信息
-site_name: 模板 #
+site_name: 拥抱LLM大语言模型ChatGPT #
 site_url: https://eanyang7.github.io/hugging-llm # mkdocs serve ——》 Browser connected: http://127.0.0.1:8000/xxx/
 site_description: "拥抱LLM大语言模型" #
 site_author: Ean Yang
@@ -97,3 +97,14 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences
   - pymdownx.details
+
+nav:
+  - 主页: index.md
+  - ChatGPT基础科普: chapter1/ChatGPT基础科普——知其一点所以然.md
+  - 使用指南: 
+    - 相似匹配: chapter2/ChatGPT使用指南——相似匹配.ipynb
+    - 句词分类: chapter3/ChatGPT使用指南——句词分类.ipynb
+    - 文本生成: chapter4/ChatGPT使用指南——文本生成.ipynb
+    - 文本推理: chapter5/ChatGPT使用指南——文本推理.ipynb
+  - 缺陷不足: chapter7/ChatGPT缺陷不足——工具不是万能的.md
+  - 商业应用: chapter8/ChatGPT商业应用——LLM是星辰大海.md

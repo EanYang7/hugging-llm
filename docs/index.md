@@ -1,5 +1,7 @@
 # HuggingLLM
 
+> 本教程在[Datawhale](https://github.com/datawhalechina)的开源项目上进行简化整理
+
 随着ChatGPT的爆火，其背后其实蕴含着一个基本事实：AI能力得到了极大突破——大模型的能力有目共睹，未来只会变得更强。这世界唯一不变的就是变，适应变化、拥抱变化、喜欢变化，天行健君子以自强不息。我们相信未来会有越来越多的大模型出现，AI正在逐渐平民化，将来每个人都可以利用大模型轻松地做出自己的AI产品。所以，我们把项目起名为HuggingLLM，我们相信我们正在经历一个伟大的时代，我们相信这是一个值得每个人全身心拥抱的时代，我们更加相信这个世界必将会因此而变得更加美好。
 
 ## 关于项目
@@ -11,13 +13,13 @@
 **项目受众**
 
 - 项目适合以下人员：
-    - 对ChatGPT感兴趣。
-    - 希望在实际中运用该技术创造提供新的服务或解决已有问题。
-    - 有一定编程基础。
+  - 对ChatGPT感兴趣。
+  - 希望在实际中运用该技术创造提供新的服务或解决已有问题。
+  - 有一定编程基础。
 - 不适合以下需求人员：
-    - 研究其底层算法细节，比如PPO怎么实现的，能不能换成NLPO或ILQL，效果如何等。
-    - 自己从头到尾研发一个 ChatGPT。
-    - 对其他技术细节感兴趣。
+  - 研究其底层算法细节，比如PPO怎么实现的，能不能换成NLPO或ILQL，效果如何等。
+  - 自己从头到尾研发一个 ChatGPT。
+  - 对其他技术细节感兴趣。
 
 另外，要说明的是，本项目并不是特别针对算法或NLP工程师等业内从业人员设计的，当然，你也可以通过本项目获得一定受益。
 
@@ -31,41 +33,41 @@
 
 > 本教程内容彼此之间相对独立，大家可以针对任一感兴趣内容阅读或上手，也可从头到尾学习。
 
-- [ChatGPT 基础科普](content/ChatGPT基础科普——知其一点所以然.md) @长琴
-    - LM
-    - Transformer
-    - GPT
-    - RLHF
-- [ChatGPT 使用指南：相似匹配](content/ChatGPT使用指南——相似匹配.ipynb) @长琴
-    - Embedding 基础
-    - API 使用
-    - QA 任务
-    - 聚类任务
-    - 推荐应用
-- [ChatGPT 使用指南：句词分类](content/ChatGPT使用指南——句词分类.ipynb) @长琴
-    - NLU 基础
-    - API 使用
-    - 文档问答任务
-    - 分类与实体识别微调任务
-    - 智能对话应用
-- [ChatGPT 使用指南：文本生成](content/ChatGPT使用指南——文本生成.ipynb) @玉琳
-    - 文本摘要
-    - 文本纠错
-    - 机器翻译
-- [ChatGPT 使用指南：文本推理](content/ChatGPT使用指南——文本推理.ipynb) @华挥
-    - 什么是推理
-    - 导入ChatGPT
-    - 测试ChatGPT推理能力
-    - 调用ChatGPT推理能力
-    - ChatGPT以及GPT-4的推理能力
-- [ChatGPT 局限不足](content/ChatGPT缺陷不足——工具不是万能的.md) @Carles
-    - 事实错误
-    - 实时更新
-    - 资源耗费
-- [ChatGPT 商业应用](content/ChatGPT商业应用——LLM是星辰大海.md) @Jason
-    - 背景
-    - 工具应用：搜索、办公、教育
-    - 行业应用：游戏、音乐、零售电商、广告营销、媒体新闻、金融、医疗、设计、影视、工业
+- [ChatGPT 基础科普](https://eanyang7.github.io/hugging-llm/chapter1/ChatGPT基础科普——知其一点所以然/) 
+  - LM
+  - Transformer
+  - GPT
+  - RLHF
+- [ChatGPT 使用指南：相似匹配](https://eanyang7.github.io/hugging-llm/chapter2/ChatGPT使用指南——相似匹配/) 
+  - Embedding 基础
+  - API 使用
+  - QA 任务
+  - 聚类任务
+  - 推荐应用
+- [ChatGPT 使用指南：句词分类](https://eanyang7.github.io/hugging-llm/chapter3/ChatGPT使用指南——句词分类/) 
+  - NLU 基础
+  - API 使用
+  - 文档问答任务
+  - 分类与实体识别微调任务
+  - 智能对话应用
+- [ChatGPT 使用指南：文本生成](https://eanyang7.github.io/hugging-llm/chapter4/ChatGPT使用指南——文本生成/) 
+  - 文本摘要
+  - 文本纠错
+  - 机器翻译
+- [ChatGPT 使用指南：文本推理](https://eanyang7.github.io/hugging-llm/chapter5/ChatGPT使用指南——文本推理/) 
+  - 什么是推理
+  - 导入ChatGPT
+  - 测试ChatGPT推理能力
+  - 调用ChatGPT推理能力
+  - ChatGPT以及GPT-4的推理能力
+- [ChatGPT 局限不足](https://eanyang7.github.io/hugging-llm/chapter6/ChatGPT缺陷不足——工具不是万能的/) 
+  - 事实错误
+  - 实时更新
+  - 资源耗费
+- [ChatGPT 商业应用](https://eanyang7.github.io/hugging-llm/chapter7/ChatGPT商业应用——LLM是星辰大海/) 
+  - 背景
+  - 工具应用：搜索、办公、教育
+  - 行业应用：游戏、音乐、零售电商、广告营销、媒体新闻、金融、医疗、设计、影视、工业
 
 ## 如何学习
 
@@ -97,28 +99,6 @@
 ——HuggingLLM开源项目全体成员
 </p>
 
-## 致谢
-
-**核心贡献者**
-
-- [长琴-项目负责人](https://yam.gift/)（Datawhale成员-AI算法工程师）
-- [玉琳](https://github.com/Sophia-Huang)（内容创作者-Datawhale成员）
-- [华挥](https://github.com/HhuiYi)（内容创作者-Datawhale成员）
-- [Carles](https://github.com/AmourWaltz)（内容创作者）
-- [Jason](https://github.com/HeteroCat)（内容创作者）
-- [胡锐锋](https://github.com/Relph1119)（Datawhale成员-华东交通大学-系统架构设计师）
-
-**其他**
-
-1. 特别感谢 [@Sm1les](https://github.com/Sm1les)、[@LSGOMYP](https://github.com/LSGOMYP) 对本项目的帮助与支持；
-
-## 关注我们
-
-<div align=center>
-<p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="resources/qrcode.jpeg" width = "180" height = "180">
-</div>
-&emsp;&emsp;Datawhale，一个专注于AI领域的学习圈子。初衷是for the learner，和学习者一起成长。目前加入学习社群的人数已经数千人，组织了机器学习，深度学习，数据分析，数据挖掘，爬虫，编程，统计学，Mysql，数据竞赛等多个领域的内容学习，微信搜索公众号Datawhale可以加入我们。
-
 ## LICENSE
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="./index.assets/license-CC BY--NC--SA 4.svg+xml" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
